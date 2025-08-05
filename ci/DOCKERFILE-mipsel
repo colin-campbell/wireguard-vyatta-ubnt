@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM ghcr.io/linuxcontainers/debian-slim
 
 # Add mipsel support and install build tools
 RUN dpkg --add-architecture mipsel && \
